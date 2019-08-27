@@ -13,12 +13,44 @@
       margin-bottom: 0;
       border-radius: 0;
     }
+
+    /* Create a Parallax Effect */
+    .jumbotron {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .jumbotron {
+      background-image: url(testheader.jpg);
+      min-height: 100%;
+      color: white;
+    }
+
+    /* .container {
+      height: 25em;
+    } */
+
+    /* .container-fluid {
+      background-color: 
+    } */
+
+    .about-box {
+      color: white;
+      background-color: black;
+      margin: 2em;
+      padding: 2em; 
+    }
     
     /* Add a gray background color and some padding to the footer */
     footer {
       background-color: #f2f2f2;
       padding: 25px;
     }
+
+    
+
   </style>
 </head>
 <body>
@@ -36,9 +68,9 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#">Research Areas</a></li>
+        <li><a href="#">Publications</a></li>
+        <li><a href="#">Lab Members</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -48,14 +80,20 @@
 </nav>
 
 <div class="jumbotron">
-  <div class="container text-center">
-    <h1>My Portfolio</h1>      
-    <p>Some text that represents "Me"...</p>
+  <div class="container text-left" style="margin-top:10em; margin-bottom:10em;">
+    <h1>The Fisher-Wellman Lab</h1>      
+    <p>#Mitochondria all the time</p>
   </div>
 </div>
   
 <div class="container-fluid bg-3 text-center">    
-  <h3>Some of my Work</h3><br>
+  <h2>About Us</h2>
+  <div class="row">
+    <div class="about-box">
+      <p>Although all mitochondria make ATP, emerging evidence suggests that the efficiency of this process varies widely across the human body’s > 200 distinct cell types. Such mitochondrial specialization allows for genetically identical mitochondrial populations across organs to individually align energy efficiency with physiology (i.e., promote bioenergetic fidelity). Simply stated, all mitochondria are not created equal; rather they are bioenergetically tailored to their respective host cell’s physiology. Our laboratory is principally interested in understanding how mitochondrial efficiency aligns with physiology across cells/organs, with a specific focus on how this process become disrupted in the context of cancer. The fundamental hypothesis of the lab states that bioenergetic inefficiency is advantageous to malignant transformation. As such, identifying and localizing the source(s) of inefficiency within the mitochondrion of various cancers is the necessary first step in the development of novel therapies. The long-term goal of the lab is to identify the unique bioenergetic signatures that demarcate cancer from non-cancer and to use this information to design and develop targeted ‘mito-therapeutics’. In the coming years we will accomplish this goal by leveraging a state-of-the art mitochondrial diagnostics workflow we developed which unites comprehensive, discovery-based bioenergetic characterization with large-scale analysis of the mitochondrial proteome using mass spectrometry. </p>
+    </div>
+  </div>
+  <h2>Some of my Work</h2><br>
   <div class="row">
     <div class="col-sm-3">
       <p>Some text..</p>
@@ -96,6 +134,22 @@
     </div>
   </div>
 </div><br><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <h2>Stay Connected</h2>
+  <div class="row">
+      <a href="https://twitter.com/KFW_Lab?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @KFW_Lab</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br>
+      <div class="col-sm-4">
+          
+      </div>
+    <div class="col-sm-4" style="max-height:40em; overflow: scroll; margin-left: auto; margin-right: auto; border: lightgrey;">
+      <a class="twitter-timeline" href="https://twitter.com/KFW_Lab?ref_src=twsrc%5Etfw">Tweets by KFW_Lab</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+    </div>
+    <div class="col-sm-4">
+        
+    </div>
+  </div>
+</div>
 
 <footer class="container-fluid text-center">
   <p>Footer Text</p>
