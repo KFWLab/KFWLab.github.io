@@ -1,0 +1,245 @@
+{
+    "success": true,
+    "payload": {
+        "value": {
+            "id": "36592814b371",
+            "versionId": "fa235deafcc",
+            "creatorId": "c7a61d524999",
+            "homeCollectionId": "",
+            "title": "Testing Embedded Documents",
+            "detectedLanguage": "en",
+            "latestVersion": "fa235deafcc",
+            "latestPublishedVersion": "fa235deafcc",
+            "hasUnpublishedEdits": false,
+            "latestRev": 33,
+            "createdAt": 1568137891368,
+            "updatedAt": 1568138190531,
+            "acceptedAt": 0,
+            "firstPublishedAt": 1568138150219,
+            "latestPublishedAt": 1568138150219,
+            "vote": false,
+            "experimentalCss": "",
+            "displayAuthor": "",
+            "content": {
+                "subtitle": "I’m testing embedded documents on Medium stories.",
+                "bodyModel": {
+                    "paragraphs": [
+                        {
+                            "name": "102c",
+                            "type": 3,
+                            "text": "Testing Embedded Documents",
+                            "markups": []
+                        },
+                        {
+                            "name": "5ac8",
+                            "type": 4,
+                            "text": "KFW Lab Logo",
+                            "markups": [],
+                            "layout": 1,
+                            "metadata": {
+                                "id": "1*Epx9sTWobM_cMgyEXPD5bg.png",
+                                "originalWidth": 180,
+                                "originalHeight": 126
+                            }
+                        },
+                        {
+                            "name": "3e1c",
+                            "type": 11,
+                            "text": "Embedded Document",
+                            "markups": [],
+                            "layout": 1,
+                            "iframe": {
+                                "mediaResourceId": "4974c0f0a08461fa49c34e5b542c4b6e",
+                                "iframeWidth": 700,
+                                "iframeHeight": 530
+                            }
+                        }
+                    ],
+                    "sections": [
+                        {
+                            "name": "a1cb",
+                            "startIndex": 0
+                        }
+                    ]
+                },
+                "postDisplay": {
+                    "coverless": true
+                }
+            },
+            "virtuals": {
+                "allowNotes": true,
+                "previewImage": {
+                    "imageId": "",
+                    "filter": "",
+                    "backgroundSize": "",
+                    "originalWidth": 0,
+                    "originalHeight": 0,
+                    "strategy": "resample",
+                    "height": 0,
+                    "width": 0
+                },
+                "wordCount": 3,
+                "imageCount": 1,
+                "readingTime": 0.21132075471698114,
+                "subtitle": "I’m testing embedded documents on Medium stories.",
+                "usersBySocialRecommends": [],
+                "noIndex": false,
+                "recommends": 0,
+                "isBookmarked": false,
+                "tags": [],
+                "socialRecommendsCount": 0,
+                "responsesCreatedCount": 0,
+                "links": {
+                    "entries": [],
+                    "version": "0.3",
+                    "generatedAt": 1568138150457
+                },
+                "isLockedPreviewOnly": false,
+                "metaDescription": "",
+                "totalClapCount": 0,
+                "sectionCount": 1,
+                "readingList": 0,
+                "topics": []
+            },
+            "coverless": true,
+            "slug": "testing-embedded-documents",
+            "translationSourcePostId": "",
+            "translationSourceCreatorId": "",
+            "isApprovedTranslation": false,
+            "inResponseToPostId": "",
+            "inResponseToRemovedAt": 0,
+            "isTitleSynthesized": false,
+            "allowResponses": true,
+            "importedUrl": "",
+            "importedPublishedAt": 0,
+            "visibility": 0,
+            "uniqueSlug": "testing-embedded-documents-36592814b371",
+            "previewContent": {
+                "bodyModel": {
+                    "paragraphs": [
+                        {
+                            "name": "102c",
+                            "type": 3,
+                            "text": "Testing Embedded Documents",
+                            "markups": [],
+                            "alignment": 1
+                        },
+                        {
+                            "name": "3e1c",
+                            "type": 11,
+                            "text": "",
+                            "markups": [],
+                            "layout": 9,
+                            "iframe": {
+                                "mediaResourceId": "4974c0f0a08461fa49c34e5b542c4b6e",
+                                "iframeWidth": 700,
+                                "iframeHeight": 530
+                            }
+                        }
+                    ],
+                    "sections": [
+                        {
+                            "startIndex": 0
+                        }
+                    ]
+                },
+                "isFullContent": false,
+                "subtitle": "I’m testing embedded documents on Medium stories."
+            },
+            "license": 0,
+            "inResponseToMediaResourceId": "",
+            "canonicalUrl": "https://medium.com/@tiffanynguyen_70175/testing-embedded-documents-36592814b371",
+            "approvedHomeCollectionId": "",
+            "newsletterId": "",
+            "webCanonicalUrl": "https://medium.com/@tiffanynguyen_70175/testing-embedded-documents-36592814b371",
+            "mediumUrl": "https://medium.com/@tiffanynguyen_70175/testing-embedded-documents-36592814b371",
+            "migrationId": "",
+            "notifyFollowers": true,
+            "notifyTwitter": false,
+            "notifyFacebook": false,
+            "responseHiddenOnParentPostAt": 0,
+            "isSeries": false,
+            "isSubscriptionLocked": false,
+            "seriesLastAppendedAt": 0,
+            "audioVersionDurationSec": 0,
+            "sequenceId": "",
+            "isNsfw": false,
+            "isEligibleForRevenue": false,
+            "isBlockedFromHightower": false,
+            "deletedAt": 0,
+            "lockedPostSource": 0,
+            "hightowerMinimumGuaranteeStartsAt": 0,
+            "hightowerMinimumGuaranteeEndsAt": 0,
+            "featureLockRequestAcceptedAt": 0,
+            "mongerRequestType": 1,
+            "layerCake": 0,
+            "socialTitle": "",
+            "socialDek": "",
+            "editorialPreviewTitle": "",
+            "editorialPreviewDek": "",
+            "curationEligibleAt": 1568138149708,
+            "isProxyPost": false,
+            "proxyPostFaviconUrl": "",
+            "proxyPostProviderName": "",
+            "proxyPostType": 0,
+            "isSuspended": false,
+            "isLimitedState": false,
+            "type": "Post"
+        },
+        "mentionedUsers": [],
+        "collaborators": [],
+        "hideMeter": false,
+        "collectionUserRelations": [],
+        "mode": null,
+        "references": {
+            "User": {
+                "c7a61d524999": {
+                    "userId": "c7a61d524999",
+                    "name": "Tiffany Nguyen",
+                    "username": "tiffanynguyen_70175",
+                    "createdAt": 1524188985429,
+                    "imageId": "0*R1r4SydrzVatAcjm.",
+                    "backgroundImageId": "",
+                    "bio": "",
+                    "twitterScreenName": "",
+                    "socialStats": {
+                        "userId": "c7a61d524999",
+                        "usersFollowedCount": 9,
+                        "usersFollowedByCount": 8,
+                        "type": "SocialStats"
+                    },
+                    "social": {
+                        "userId": "lo_32324ff06e09",
+                        "targetUserId": "c7a61d524999",
+                        "type": "Social"
+                    },
+                    "facebookAccountId": "1138304896311104",
+                    "allowNotes": 1,
+                    "mediumMemberAt": 0,
+                    "isNsfw": false,
+                    "isWriterProgramEnrolled": true,
+                    "isQuarantined": false,
+                    "isSuspended": false,
+                    "type": "User"
+                }
+            },
+            "Social": {
+                "c7a61d524999": {
+                    "userId": "lo_32324ff06e09",
+                    "targetUserId": "c7a61d524999",
+                    "type": "Social"
+                }
+            },
+            "SocialStats": {
+                "c7a61d524999": {
+                    "userId": "c7a61d524999",
+                    "usersFollowedCount": 9,
+                    "usersFollowedByCount": 8,
+                    "type": "SocialStats"
+                }
+            }
+        }
+    },
+    "v": 3,
+    "b": "38553-9405e85"
+}
