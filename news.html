@@ -18,19 +18,57 @@
             border: 1px solid rgba(0, 0, 0, 0.1);
         }
     </style>
-    <div style="background-color:white;">
-    <div class="w3-center" style="white-space:nowrap;padding:3em;">
-        <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide">KFW LAB NEWS</span>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+          <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+            <i class="fa fa-bars"></i>
+          </a>
+          <a href="index.html" class="w3-bar-item w3-button w3-hover-black">HOME</a>
+          <a href="index.html#about" class="w3-bar-item w3-button w3-hover-black w3-hide-small"><i class="fa fa-info-circle"></i> ABOUT</a>
+          <a href="news.html" class="w3-bar-item w3-button w3-hover-black w3-hide-small"><i class="fa fa-newspaper-o"></i> NEWS</a>
+          <a href="index.html#publications" class="w3-bar-item w3-button w3-hide-small w3-hover-black"><i class="fa fa-book"></i> PUBLICATIONS</a>
+          <a href="index.html#members" class="w3-bar-item w3-button w3-hide-small w3-hover-black"><i class="fa fa-user"></i> MEMBERS</a>
+          <a href="index.html#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-black"><i class="fa fa-envelope"></i> CONTACT</a>
+        </div>
+      
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-gray w3-hide w3-hide-large w3-hide-medium">
+          <a href="index.html#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+          <a href="news.html" class="w3-bar-item w3-button" onclick="toggleFunction()">NEWS</a>
+          <a href="index.html#publications" class="w3-bar-item w3-button" onclick="toggleFunction()">PUBLICATIONS</a>
+          <a href="index.html#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+        </div>
     </div>
 
-    <blockquote class="embedly-card"><h4><a href="https://medium.com/@tiffanynguyen_70175">Tiffany Nguyen - Medium</a></h4><p>Read writing from Tiffany Nguyen on Medium. Every day, Tiffany Nguyen and thousands of other voices read, write, and share important stories on Medium.</p></blockquote>
+
+    <div class="w3-display-container" style="margin-top:4.5em;">
+        <div class="w3-center" style="white-space:nowrap;padding:3em;">
+            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide">KFW LAB NEWS</span>
+        </div>
+    </div>
+
+    <blockquote class="embedly-card" data-card-controls="0"><h4><a href="https://medium.com/@tiffanynguyen_70175">Tiffany Nguyen - Medium</a></h4><p>Read writing from Tiffany Nguyen on Medium. Every day, Tiffany Nguyen and thousands of other voices read, write, and share important stories on Medium.</p></blockquote>
     
-    <blockquote class="embedly-card"><h4><a href="https://medium.com/@tiffanynguyen_70175/testing-display-of-multiple-stories-d6650efc55a">Testing Display of Multiple Stories</a></h4><p>Subtitle.</p></blockquote>
+    <blockquote class="embedly-card" data-card-controls="0"><h4><a href="https://medium.com/@tiffanynguyen_70175/testing-display-of-multiple-stories-d6650efc55a">Testing Display of Multiple Stories</a></h4><p>Subtitle.</p></blockquote>
     
-    <blockquote class="embedly-card"><h4><a href="https://medium.com/@tiffanynguyen_70175/testing-embedded-documents-36592814b371">Testing Embedded Documents</a></h4><p>I'm testing embedded documents on Medium stories.</p></blockquote>
+    <blockquote class="embedly-card" data-card-controls="0"><h4><a href="https://medium.com/@tiffanynguyen_70175/testing-embedded-documents-36592814b371">Testing Embedded Documents</a></h4><p>I'm testing embedded documents on Medium stories.</p></blockquote>
     </div>
 
     <script async src="platform.js" charset="UTF-8"></script>
+
+    <script>
+        // Change style of navbar on scroll
+        window.onscroll = function() {myFunction()};
+        function myFunction() {
+            var navbar = document.getElementById("myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "w3-bar" + " w3-card-2" + " w3-animate-top" + " w3-black";
+            } else {
+                navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-black", "");
+            }
+        }
+    </script>
 
     <!-- <iframe src="https://medium.com/@tiffanynguyen_70175" style="width:100%;height:100%;"></iframe> 
     <div id="fm-medium-embed"></div>
