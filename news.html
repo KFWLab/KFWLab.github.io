@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <title>KFW Lab</title>
@@ -48,18 +47,45 @@
         </div>
     </div>
 
-    <blockquote class="embedly-card" data-card-controls="0"><h4><a href="https://medium.com/@tiffanynguyen_70175">Tiffany Nguyen - Medium</a></h4><p>Read writing from Tiffany Nguyen on Medium. Every day, Tiffany Nguyen and thousands of other voices read, write, and share important stories on Medium.</p></blockquote>
+    <blockquote class="embedly-card" data-card-controls="0">
+        <h4><a href="https://medium.com/@tiffanynguyen_70175">Tiffany Nguyen - Medium</a></h4>
+        <p>Read writing from Tiffany Nguyen on Medium. Every day, Tiffany Nguyen and thousands of other voices read, write, and share important stories on Medium.</p>
+    </blockquote>
     
     <blockquote class="embedly-card" data-card-controls="0"><h4><a href="https://medium.com/@tiffanynguyen_70175/testing-display-of-multiple-stories-d6650efc55a">Testing Display of Multiple Stories</a></h4><p>Subtitle.</p></blockquote>
     
     <blockquote class="embedly-card" data-card-controls="0"><h4><a href="https://medium.com/@tiffanynguyen_70175/testing-embedded-documents-36592814b371">Testing Embedded Documents</a></h4><p>I'm testing embedded documents on Medium stories.</p></blockquote>
-    </div>
-
-    <script async src="platform.js" charset="UTF-8"></script>
+    <!-- </div> -->
 
     <script>
+        window.onload = function() {
+            getPostData();
+        };
         // Change style of navbar on scroll
-        window.onscroll = function() {myFunction()};
+        window.onscroll = function() {
+            myFunction();
+        };
+
+        function getPostData(){
+            var request = new XMLHttpRequest();
+
+            request.open('GET', "https://medium.com/@tiffanynguyen_70175?format=json", true);
+            request.onload = function() {
+            if (request.status >= 200 && request.status < 400) {
+                // Success!
+                var data = request.responseText.split('])}while(1);</x>')[1]
+                var data = JSON.parse(data);
+                console.log(data["payload"]["references"])
+            } else {
+                // We reached our target server, but it returned an error
+                console.log("OOP!: The server returned an error.");
+            }
+            };
+
+            request.send();
+
+        }
+
         function myFunction() {
             var navbar = document.getElementById("myNavbar");
             if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
@@ -68,7 +94,32 @@
                 navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-black", "");
             }
         }
+
+        function createEmbedly(url, story_title, story_subtitle){
+            var iDiv = document.createElement('blockquote');
+            var link = document.createElement('a');
+            var title = document.createElement('h4');
+            var subtitle = document.createElement('p');
+
+            iDiv.className = 'embedly-card';
+            link.href = url
+            link.text = story_title
+            subtitle.innerText = story_subtitle
+            title.appendChild(link)
+            iDiv.appendChild(title)
+            iDiv.appendChild(subtitle)
+            document.getElementsByTagName('body')[0].appendChild(iDiv);
+
+            // Now create and append to iDiv
+            // var innerDiv = document.createElement('div');
+            // innerDiv.className = 'block-2';
+
+            // // The variable iDiv is still good... Just append to it.
+            // iDiv.appendChild(innerDiv);
+        }
     </script>
+
+    <script async src="platform.js" charset="UTF-8"></script>
 
     <!-- <iframe src="https://medium.com/@tiffanynguyen_70175" style="width:100%;height:100%;"></iframe> 
     <div id="fm-medium-embed"></div>
