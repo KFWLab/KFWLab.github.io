@@ -1,305 +1,500 @@
-{
-    "success": true,
-    "payload": {
-        "user": {
-            "userId": "c7a61d524999",
-            "name": "Tiffany Nguyen",
-            "username": "tiffanynguyen_70175",
-            "createdAt": 1524188985429,
-            "imageId": "0*R1r4SydrzVatAcjm.",
-            "backgroundImageId": "",
-            "bio": "",
-            "twitterScreenName": "",
-            "facebookAccountId": "1138304896311104",
-            "allowNotes": 1,
-            "mediumMemberAt": 0,
-            "isNsfw": false,
-            "isWriterProgramEnrolled": true,
-            "isQuarantined": false,
-            "isSuspended": false,
-            "type": "User"
-        },
-        "streamItems": [
-            {
-                "createdAt": 1568139189723,
+])
+}while(1);</x>{
+"success": true,
+"payload": {
+    "user": {
+        "userId": "c7a61d524999",
+        "name": "Tiffany Nguyen",
+        "username": "tiffanynguyen_70175",
+        "createdAt": 1524188985429,
+        "imageId": "0*R1r4SydrzVatAcjm.",
+        "backgroundImageId": "",
+        "bio": "",
+        "twitterScreenName": "",
+        "facebookAccountId": "1138304896311104",
+        "allowNotes": 1,
+        "mediumMemberAt": 0,
+        "isNsfw": false,
+        "isWriterProgramEnrolled": true,
+        "isQuarantined": false,
+        "isSuspended": false,
+        "type": "User"
+    },
+    "streamItems": [
+        {
+            "createdAt": 1568228473190,
+            "heading": {
+                "text": "Latest",
                 "heading": {
-                    "text": "Latest",
-                    "heading": {
-                        "fallbackTitle": "Latest",
-                        "headingBasic": {
-                            "title": "Latest"
-                        },
-                        "headingType": "headingBasic"
+                    "fallbackTitle": "Latest",
+                    "headingBasic": {
+                        "title": "Latest"
+                    },
+                    "headingType": "headingBasic"
+                }
+            },
+            "randomId": "425c8e4595fb",
+            "itemType": "heading",
+            "type": "StreamItem"
+        },
+        {
+            "createdAt": 1568228473190,
+            "postPreview": {
+                "postId": "d6650efc55a",
+                "postSuggestionReasons": [
+                    {
+                        "reason": 28
+                    }
+                ]
+            },
+            "randomId": "7458e91d9c66",
+            "itemType": "postPreview",
+            "type": "StreamItem"
+        },
+        {
+            "createdAt": 1568228473190,
+            "postPreview": {
+                "postId": "36592814b371",
+                "postSuggestionReasons": [
+                    {
+                        "reason": 28
+                    }
+                ]
+            },
+            "randomId": "309893bc3953",
+            "itemType": "postPreview",
+            "type": "StreamItem"
+        }
+    ],
+    "userMeta": {
+        "numberOfPostsPublished": 2,
+        "userId": "c7a61d524999",
+        "userSuggestionReason": {
+            "followeesWhoFollow": {
+                "users": []
+            },
+            "reason": "followeesWhoFollow"
+        },
+        "collectionIds": [],
+        "authorTags": [],
+        "featuredPostId": "",
+        "topWriterInTags": [],
+        "type": "UserMeta"
+    },
+    "userNavItemList": {
+        "userNavItems": [
+            {
+                "title": "Profile",
+                "url": "https://medium.com/@tiffanynguyen_70175",
+                "systemItem": {
+                    "systemType": 1
+                },
+                "navType": "systemItem"
+            }
+        ]
+    },
+    "userNavActiveIndex": 0,
+    "profileTypeName": "overview",
+    "isStandaloneEditPage": false,
+    "references": {
+        "User": {
+            "c7a61d524999": {
+                "userId": "c7a61d524999",
+                "name": "Tiffany Nguyen",
+                "username": "tiffanynguyen_70175",
+                "createdAt": 1524188985429,
+                "imageId": "0*R1r4SydrzVatAcjm.",
+                "backgroundImageId": "",
+                "bio": "",
+                "twitterScreenName": "",
+                "facebookAccountId": "1138304896311104",
+                "allowNotes": 1,
+                "mediumMemberAt": 0,
+                "isNsfw": false,
+                "isWriterProgramEnrolled": true,
+                "isQuarantined": false,
+                "isSuspended": false,
+                "type": "User"
+            }
+        },
+        "Post": {
+            "d6650efc55a": {
+                "id": "d6650efc55a",
+                "versionId": "2573da50181f",
+                "creatorId": "c7a61d524999",
+                "homeCollectionId": "",
+                "title": "Testing Display of Multiple Stories",
+                "detectedLanguage": "la",
+                "latestVersion": "2573da50181f",
+                "latestPublishedVersion": "2573da50181f",
+                "hasUnpublishedEdits": false,
+                "latestRev": 25,
+                "createdAt": 1568142249531,
+                "updatedAt": 1568142309229,
+                "acceptedAt": 0,
+                "firstPublishedAt": 1568142308977,
+                "latestPublishedAt": 1568142308977,
+                "vote": false,
+                "experimentalCss": "",
+                "displayAuthor": "",
+                "content": {
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad…",
+                    "postDisplay": {
+                        "coverless": true
                     }
                 },
-                "randomId": "a04db6086637",
-                "itemType": "heading",
-                "type": "StreamItem"
-            },
-            {
-                "createdAt": 1568139189723,
-                "postPreview": {
-                    "postId": "36592814b371",
-                    "postSuggestionReasons": [
-                        {
-                            "reason": 28
-                        }
-                    ]
+                "virtuals": {
+                    "allowNotes": true,
+                    "previewImage": {
+                        "imageId": "1*P4-_TL7_0-bAiCbLCO4fPA.jpeg",
+                        "filter": "",
+                        "backgroundSize": "",
+                        "originalWidth": 7204,
+                        "originalHeight": 3783,
+                        "strategy": "resample",
+                        "height": 0,
+                        "width": 0
+                    },
+                    "wordCount": 74,
+                    "imageCount": 1,
+                    "readingTime": 0.47924528301886793,
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad…",
+                    "userPostRelation": {
+                        "userId": "c7a61d524999",
+                        "postId": "d6650efc55a",
+                        "readAt": 1568142551677,
+                        "readLaterAddedAt": 0,
+                        "votedAt": 0,
+                        "collaboratorAddedAt": 0,
+                        "notesAddedAt": 0,
+                        "subscribedAt": 0,
+                        "lastReadSectionName": "",
+                        "lastReadVersionId": "",
+                        "lastReadAt": 0,
+                        "lastReadParagraphName": "",
+                        "lastReadPercentage": 0,
+                        "viewedAt": 1568142546301,
+                        "presentedCountInResponseManagement": 0,
+                        "clapCount": 0,
+                        "seriesUpdateNotifsOptedInAt": 0,
+                        "queuedAt": 0,
+                        "seriesFirstViewedAt": 0,
+                        "presentedCountInStream": 4,
+                        "seriesLastViewedAt": 0,
+                        "audioProgressSec": 0
+                    },
+                    "usersBySocialRecommends": [],
+                    "noIndex": false,
+                    "recommends": 0,
+                    "isBookmarked": false,
+                    "tags": [],
+                    "socialRecommendsCount": 0,
+                    "responsesCreatedCount": 0,
+                    "links": {
+                        "entries": [],
+                        "version": "0.3",
+                        "generatedAt": 1568142309255
+                    },
+                    "isLockedPreviewOnly": false,
+                    "metaDescription": "",
+                    "totalClapCount": 0,
+                    "sectionCount": 1,
+                    "readingList": 0,
+                    "topics": []
                 },
-                "randomId": "e21024ff5b8",
-                "itemType": "postPreview",
-                "type": "StreamItem"
-            }
-        ],
-        "userMeta": {
-            "numberOfPostsPublished": 1,
-            "userId": "c7a61d524999",
-            "userSuggestionReason": {
-                "followeesWhoFollow": {
-                    "users": []
+                "coverless": true,
+                "slug": "testing-display-of-multiple-stories",
+                "translationSourcePostId": "",
+                "translationSourceCreatorId": "",
+                "isApprovedTranslation": false,
+                "inResponseToPostId": "",
+                "inResponseToRemovedAt": 0,
+                "isTitleSynthesized": false,
+                "allowResponses": true,
+                "importedUrl": "",
+                "importedPublishedAt": 0,
+                "visibility": 0,
+                "uniqueSlug": "testing-display-of-multiple-stories-d6650efc55a",
+                "previewContent": {
+                    "bodyModel": {
+                        "paragraphs": [
+                            {
+                                "name": "previewImage",
+                                "type": 4,
+                                "text": "",
+                                "layout": 10,
+                                "metadata": {
+                                    "id": "1*P4-_TL7_0-bAiCbLCO4fPA.jpeg",
+                                    "originalWidth": 7204,
+                                    "originalHeight": 3783,
+                                    "isFeatured": true
+                                }
+                            },
+                            {
+                                "name": "3b70",
+                                "type": 3,
+                                "text": "Testing Display of Multiple Stories",
+                                "markups": [],
+                                "alignment": 1
+                            },
+                            {
+                                "name": "1f06",
+                                "type": 1,
+                                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut…",
+                                "markups": [],
+                                "alignment": 1
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "startIndex": 0
+                            }
+                        ]
+                    },
+                    "isFullContent": false,
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad…"
                 },
-                "reason": "followeesWhoFollow"
+                "license": 0,
+                "inResponseToMediaResourceId": "",
+                "canonicalUrl": "",
+                "approvedHomeCollectionId": "",
+                "newsletterId": "",
+                "webCanonicalUrl": "",
+                "mediumUrl": "",
+                "migrationId": "",
+                "notifyFollowers": true,
+                "notifyTwitter": false,
+                "notifyFacebook": false,
+                "responseHiddenOnParentPostAt": 0,
+                "isSeries": false,
+                "isSubscriptionLocked": false,
+                "seriesLastAppendedAt": 0,
+                "audioVersionDurationSec": 0,
+                "sequenceId": "",
+                "isNsfw": false,
+                "isEligibleForRevenue": false,
+                "isBlockedFromHightower": false,
+                "deletedAt": 0,
+                "lockedPostSource": 0,
+                "hightowerMinimumGuaranteeStartsAt": 0,
+                "hightowerMinimumGuaranteeEndsAt": 0,
+                "featureLockRequestAcceptedAt": 0,
+                "mongerRequestType": 1,
+                "layerCake": 0,
+                "socialTitle": "",
+                "socialDek": "",
+                "editorialPreviewTitle": "",
+                "editorialPreviewDek": "",
+                "curationEligibleAt": 0,
+                "isProxyPost": false,
+                "proxyPostFaviconUrl": "",
+                "proxyPostProviderName": "",
+                "proxyPostType": 0,
+                "isSuspended": false,
+                "isLimitedState": false,
+                "type": "Post"
             },
-            "collectionIds": [],
-            "authorTags": [],
-            "featuredPostId": "",
-            "topWriterInTags": [],
-            "type": "UserMeta"
-        },
-        "userNavItemList": {
-            "userNavItems": [
-                {
-                    "title": "Profile",
-                    "url": "https://medium.com/@tiffanynguyen_70175",
-                    "systemItem": {
-                        "systemType": 1
+            "36592814b371": {
+                "id": "36592814b371",
+                "versionId": "dd83cb04d5ea",
+                "creatorId": "c7a61d524999",
+                "homeCollectionId": "",
+                "title": "Testing Embedded Documents",
+                "detectedLanguage": "en",
+                "latestVersion": "dd83cb04d5ea",
+                "latestPublishedVersion": "dd83cb04d5ea",
+                "hasUnpublishedEdits": false,
+                "latestRev": 49,
+                "createdAt": 1568137891368,
+                "updatedAt": 1568141688317,
+                "acceptedAt": 0,
+                "firstPublishedAt": 1568138150219,
+                "latestPublishedAt": 1568141688132,
+                "vote": false,
+                "experimentalCss": "",
+                "displayAuthor": "",
+                "content": {
+                    "subtitle": "I’m testing embedded documents on Medium stories.",
+                    "postDisplay": {
+                        "coverless": true
+                    }
+                },
+                "virtuals": {
+                    "allowNotes": true,
+                    "previewImage": {
+                        "imageId": "1*W6hKe4kn1kX024wHQCgzHw.jpeg",
+                        "filter": "",
+                        "backgroundSize": "",
+                        "originalWidth": 5184,
+                        "originalHeight": 3456,
+                        "strategy": "resample",
+                        "height": 0,
+                        "width": 0
                     },
-                    "navType": "systemItem"
-                }
-            ]
-        },
-        "userNavActiveIndex": 0,
-        "profileTypeName": "overview",
-        "isStandaloneEditPage": false,
-        "references": {
-            "User": {
-                "c7a61d524999": {
-                    "userId": "c7a61d524999",
-                    "name": "Tiffany Nguyen",
-                    "username": "tiffanynguyen_70175",
-                    "createdAt": 1524188985429,
-                    "imageId": "0*R1r4SydrzVatAcjm.",
-                    "backgroundImageId": "",
-                    "bio": "",
-                    "twitterScreenName": "",
-                    "facebookAccountId": "1138304896311104",
-                    "allowNotes": 1,
-                    "mediumMemberAt": 0,
-                    "isNsfw": false,
-                    "isWriterProgramEnrolled": true,
-                    "isQuarantined": false,
-                    "isSuspended": false,
-                    "type": "User"
-                }
-            },
-            "Post": {
-                "36592814b371": {
-                    "id": "36592814b371",
-                    "versionId": "fa235deafcc",
-                    "creatorId": "c7a61d524999",
-                    "homeCollectionId": "",
-                    "title": "Testing Embedded Documents",
-                    "detectedLanguage": "en",
-                    "latestVersion": "fa235deafcc",
-                    "latestPublishedVersion": "fa235deafcc",
-                    "hasUnpublishedEdits": false,
-                    "latestRev": 33,
-                    "createdAt": 1568137891368,
-                    "updatedAt": 1568138190531,
-                    "acceptedAt": 0,
-                    "firstPublishedAt": 1568138150219,
-                    "latestPublishedAt": 1568138150219,
-                    "vote": false,
-                    "experimentalCss": "",
-                    "displayAuthor": "",
-                    "content": {
-                        "subtitle": "I’m testing embedded documents on Medium stories.",
-                        "postDisplay": {
-                            "coverless": true
-                        }
+                    "wordCount": 72,
+                    "imageCount": 1,
+                    "readingTime": 0.4716981132075472,
+                    "subtitle": "I’m testing embedded documents on Medium stories.",
+                    "userPostRelation": {
+                        "userId": "c7a61d524999",
+                        "postId": "36592814b371",
+                        "readAt": 1568141688168,
+                        "readLaterAddedAt": 0,
+                        "votedAt": 0,
+                        "collaboratorAddedAt": 0,
+                        "notesAddedAt": 0,
+                        "subscribedAt": 0,
+                        "lastReadSectionName": "",
+                        "lastReadVersionId": "",
+                        "lastReadAt": 0,
+                        "lastReadParagraphName": "",
+                        "lastReadPercentage": 0,
+                        "viewedAt": 1568141779228,
+                        "presentedCountInResponseManagement": 0,
+                        "clapCount": 0,
+                        "seriesUpdateNotifsOptedInAt": 0,
+                        "queuedAt": 0,
+                        "seriesFirstViewedAt": 0,
+                        "presentedCountInStream": 7,
+                        "seriesLastViewedAt": 0,
+                        "audioProgressSec": 0
                     },
-                    "virtuals": {
-                        "allowNotes": true,
-                        "previewImage": {
-                            "imageId": "",
-                            "filter": "",
-                            "backgroundSize": "",
-                            "originalWidth": 0,
-                            "originalHeight": 0,
-                            "strategy": "resample",
-                            "height": 0,
-                            "width": 0
-                        },
-                        "wordCount": 3,
-                        "imageCount": 1,
-                        "readingTime": 0.21132075471698114,
-                        "subtitle": "I’m testing embedded documents on Medium stories.",
-                        "userPostRelation": {
-                            "userId": "c7a61d524999",
-                            "postId": "36592814b371",
-                            "readAt": 1568138244936,
-                            "readLaterAddedAt": 0,
-                            "votedAt": 0,
-                            "collaboratorAddedAt": 0,
-                            "notesAddedAt": 0,
-                            "subscribedAt": 0,
-                            "lastReadSectionName": "",
-                            "lastReadVersionId": "",
-                            "lastReadAt": 0,
-                            "lastReadParagraphName": "",
-                            "lastReadPercentage": 0,
-                            "viewedAt": 1568138268585,
-                            "presentedCountInResponseManagement": 0,
-                            "clapCount": 0,
-                            "seriesUpdateNotifsOptedInAt": 0,
-                            "queuedAt": 0,
-                            "seriesFirstViewedAt": 0,
-                            "presentedCountInStream": 1,
-                            "seriesLastViewedAt": 0,
-                            "audioProgressSec": 0
-                        },
-                        "usersBySocialRecommends": [],
-                        "noIndex": false,
-                        "recommends": 0,
-                        "isBookmarked": false,
-                        "tags": [],
-                        "socialRecommendsCount": 0,
-                        "responsesCreatedCount": 0,
-                        "links": {
-                            "entries": [],
-                            "version": "0.3",
-                            "generatedAt": 1568138150457
-                        },
-                        "isLockedPreviewOnly": false,
-                        "metaDescription": "",
-                        "totalClapCount": 0,
-                        "sectionCount": 1,
-                        "readingList": 0,
-                        "topics": []
+                    "usersBySocialRecommends": [],
+                    "noIndex": false,
+                    "recommends": 0,
+                    "isBookmarked": false,
+                    "tags": [],
+                    "socialRecommendsCount": 0,
+                    "responsesCreatedCount": 0,
+                    "links": {
+                        "entries": [],
+                        "version": "0.3",
+                        "generatedAt": 1568141688362
                     },
-                    "coverless": true,
-                    "slug": "testing-embedded-documents",
-                    "translationSourcePostId": "",
-                    "translationSourceCreatorId": "",
-                    "isApprovedTranslation": false,
-                    "inResponseToPostId": "",
-                    "inResponseToRemovedAt": 0,
-                    "isTitleSynthesized": false,
-                    "allowResponses": true,
-                    "importedUrl": "",
-                    "importedPublishedAt": 0,
-                    "visibility": 0,
-                    "uniqueSlug": "testing-embedded-documents-36592814b371",
-                    "previewContent": {
-                        "bodyModel": {
-                            "paragraphs": [
-                                {
-                                    "name": "102c",
-                                    "type": 3,
-                                    "text": "Testing Embedded Documents",
-                                    "markups": [],
-                                    "alignment": 1
-                                },
-                                {
-                                    "name": "3e1c",
-                                    "type": 11,
-                                    "text": "",
-                                    "markups": [],
-                                    "layout": 9,
-                                    "iframe": {
-                                        "mediaResourceId": "4974c0f0a08461fa49c34e5b542c4b6e",
-                                        "iframeWidth": 700,
-                                        "iframeHeight": 530
-                                    }
+                    "isLockedPreviewOnly": false,
+                    "metaDescription": "",
+                    "totalClapCount": 0,
+                    "sectionCount": 1,
+                    "readingList": 0,
+                    "topics": []
+                },
+                "coverless": true,
+                "slug": "testing-embedded-documents",
+                "translationSourcePostId": "",
+                "translationSourceCreatorId": "",
+                "isApprovedTranslation": false,
+                "inResponseToPostId": "",
+                "inResponseToRemovedAt": 0,
+                "isTitleSynthesized": false,
+                "allowResponses": true,
+                "importedUrl": "",
+                "importedPublishedAt": 0,
+                "visibility": 0,
+                "uniqueSlug": "testing-embedded-documents-36592814b371",
+                "previewContent": {
+                    "bodyModel": {
+                        "paragraphs": [
+                            {
+                                "name": "previewImage",
+                                "type": 4,
+                                "text": "",
+                                "layout": 10,
+                                "metadata": {
+                                    "id": "1*W6hKe4kn1kX024wHQCgzHw.jpeg",
+                                    "originalWidth": 5184,
+                                    "originalHeight": 3456
                                 }
-                            ],
-                            "sections": [
-                                {
-                                    "startIndex": 0
-                                }
-                            ]
-                        },
-                        "isFullContent": false,
-                        "subtitle": "I’m testing embedded documents on Medium stories."
+                            },
+                            {
+                                "name": "previewTitle",
+                                "type": 3,
+                                "text": "Testing Embedded Documents",
+                                "alignment": 1
+                            },
+                            {
+                                "name": "previewSubtitle",
+                                "type": 13,
+                                "text": "I’m testing embedded documents on Medium stories.",
+                                "alignment": 1
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "startIndex": 0
+                            }
+                        ]
                     },
-                    "license": 0,
-                    "inResponseToMediaResourceId": "",
-                    "canonicalUrl": "",
-                    "approvedHomeCollectionId": "",
-                    "newsletterId": "",
-                    "webCanonicalUrl": "",
-                    "mediumUrl": "",
-                    "migrationId": "",
-                    "notifyFollowers": true,
-                    "notifyTwitter": false,
-                    "notifyFacebook": false,
-                    "responseHiddenOnParentPostAt": 0,
-                    "isSeries": false,
-                    "isSubscriptionLocked": false,
-                    "seriesLastAppendedAt": 0,
-                    "audioVersionDurationSec": 0,
-                    "sequenceId": "",
-                    "isNsfw": false,
-                    "isEligibleForRevenue": false,
-                    "isBlockedFromHightower": false,
-                    "deletedAt": 0,
-                    "lockedPostSource": 0,
-                    "hightowerMinimumGuaranteeStartsAt": 0,
-                    "hightowerMinimumGuaranteeEndsAt": 0,
-                    "featureLockRequestAcceptedAt": 0,
-                    "mongerRequestType": 1,
-                    "layerCake": 0,
-                    "socialTitle": "",
-                    "socialDek": "",
-                    "editorialPreviewTitle": "",
-                    "editorialPreviewDek": "",
-                    "curationEligibleAt": 1568138149708,
-                    "isProxyPost": false,
-                    "proxyPostFaviconUrl": "",
-                    "proxyPostProviderName": "",
-                    "proxyPostType": 0,
-                    "isSuspended": false,
-                    "isLimitedState": false,
-                    "type": "Post"
-                }
-            },
-            "Social": {
-                "c7a61d524999": {
-                    "userId": "c7a61d524999",
-                    "targetUserId": "c7a61d524999",
-                    "type": "Social"
-                }
-            },
-            "SocialStats": {
-                "c7a61d524999": {
-                    "userId": "c7a61d524999",
-                    "usersFollowedCount": 9,
-                    "usersFollowedByCount": 8,
-                    "type": "SocialStats"
-                }
+                    "isFullContent": false,
+                    "subtitle": "I’m testing embedded documents on Medium stories."
+                },
+                "license": 0,
+                "inResponseToMediaResourceId": "",
+                "canonicalUrl": "",
+                "approvedHomeCollectionId": "",
+                "newsletterId": "",
+                "webCanonicalUrl": "",
+                "mediumUrl": "",
+                "migrationId": "",
+                "notifyFollowers": true,
+                "notifyTwitter": false,
+                "notifyFacebook": false,
+                "responseHiddenOnParentPostAt": 0,
+                "isSeries": false,
+                "isSubscriptionLocked": false,
+                "seriesLastAppendedAt": 0,
+                "audioVersionDurationSec": 0,
+                "sequenceId": "",
+                "isNsfw": false,
+                "isEligibleForRevenue": false,
+                "isBlockedFromHightower": false,
+                "deletedAt": 0,
+                "lockedPostSource": 0,
+                "hightowerMinimumGuaranteeStartsAt": 0,
+                "hightowerMinimumGuaranteeEndsAt": 0,
+                "featureLockRequestAcceptedAt": 0,
+                "mongerRequestType": 1,
+                "layerCake": 0,
+                "socialTitle": "",
+                "socialDek": "",
+                "editorialPreviewTitle": "",
+                "editorialPreviewDek": "",
+                "curationEligibleAt": 1568138149708,
+                "isProxyPost": false,
+                "proxyPostFaviconUrl": "",
+                "proxyPostProviderName": "",
+                "proxyPostType": 0,
+                "isSuspended": false,
+                "isLimitedState": false,
+                "type": "Post"
             }
         },
-        "paging": {
-            "path": "https://medium.com/_/api/users/c7a61d524999/profile/stream",
-            "next": {
-                "limit": 10,
-                "to": "1568138150219",
-                "source": "overview",
-                "ignoredIds": [],
-                "page": 2
+        "Social": {
+            "c7a61d524999": {
+                "userId": "c7a61d524999",
+                "targetUserId": "c7a61d524999",
+                "type": "Social"
+            }
+        },
+        "SocialStats": {
+            "c7a61d524999": {
+                "userId": "c7a61d524999",
+                "usersFollowedCount": 9,
+                "usersFollowedByCount": 8,
+                "type": "SocialStats"
             }
         }
     },
-    "v": 3,
-    "b": "38553-9405e85"
+    "paging": {
+        "path": "https://medium.com/_/api/users/c7a61d524999/profile/stream",
+        "next": {
+            "limit": 10,
+            "to": "1568138150219",
+            "source": "overview",
+            "ignoredIds": [],
+            "page": 2
+        }
+    }
+},
+"v": 3,
+"b": "38567-614e6f0"
 }

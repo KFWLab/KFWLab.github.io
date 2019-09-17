@@ -40,6 +40,7 @@
         </div>
     </div>
 
+    <iframe id="my_iframe" style="display:none;"></iframe>
 
     <div class="w3-display-container" style="margin-top:4.5em;">
         <div class="w3-center" style="white-space:nowrap;padding:3em;">
@@ -51,16 +52,12 @@
         <h4><a href="https://medium.com/@tiffanynguyen_70175">Tiffany Nguyen - Medium</a></h4>
         <p>Read writing from Tiffany Nguyen on Medium. Every day, Tiffany Nguyen and thousands of other voices read, write, and share important stories on Medium.</p>
     </blockquote>
-    
-    <blockquote class="embedly-card" data-card-controls="0"><h4><a href="https://medium.com/@tiffanynguyen_70175/testing-display-of-multiple-stories-d6650efc55a">Testing Display of Multiple Stories</a></h4><p>Subtitle.</p></blockquote>
-    
-    <blockquote class="embedly-card" data-card-controls="0"><h4><a href="https://medium.com/@tiffanynguyen_70175/testing-embedded-documents-36592814b371">Testing Embedded Documents</a></h4><p>I'm testing embedded documents on Medium stories.</p></blockquote>
-    <!-- </div> -->
 
     <script>
         window.onload = function() {
             getPostData();
         };
+
         // Change style of navbar on scroll
         window.onscroll = function() {
             myFunction();
@@ -69,13 +66,25 @@
         function getPostData(){
             var request = new XMLHttpRequest();
 
-            request.open('GET', "https://medium.com/@tiffanynguyen_70175?format=json", true);
+            // CORS restricts non-medium.com domains from accessing medium.com so...I had to set up a proxy via cors-escape
+            request.open("GET", "https://kfw-proxy.herokuapp.com/https://medium.com/@tiffanynguyen_70175?format=json");
+
             request.onload = function() {
             if (request.status >= 200 && request.status < 400) {
                 // Success!
-                var data = request.responseText.split('])}while(1);</x>')[1]
+                var data = request.responseText.split('])}while(1);</x>')[1] //splits off anti-hijacking code
                 var data = JSON.parse(data);
-                console.log(data["payload"]["references"])
+
+                // Retrieves the title, subtitle, and unique slug of each post for 
+                // the profile and then creates an embedly for each
+                for (post in data["payload"]["references"]["Post"]){
+                    post = data["payload"]["references"]["Post"][post];
+
+                    var title = post["title"];
+                    var subtitle = post["content"]["subtitle"];
+                    var uniqueSlug = post["uniqueSlug"];
+                    createEmbedly(uniqueSlug, title, subtitle);
+                }
             } else {
                 // We reached our target server, but it returned an error
                 console.log("OOP!: The server returned an error.");
@@ -96,6 +105,7 @@
         }
 
         function createEmbedly(url, story_title, story_subtitle){
+            url = "https://medium.com/@tiffanynguyen_70175/" + url
             var iDiv = document.createElement('blockquote');
             var link = document.createElement('a');
             var title = document.createElement('h4');
@@ -109,32 +119,9 @@
             iDiv.appendChild(title)
             iDiv.appendChild(subtitle)
             document.getElementsByTagName('body')[0].appendChild(iDiv);
-
-            // Now create and append to iDiv
-            // var innerDiv = document.createElement('div');
-            // innerDiv.className = 'block-2';
-
-            // // The variable iDiv is still good... Just append to it.
-            // iDiv.appendChild(innerDiv);
         }
     </script>
 
     <script async src="platform.js" charset="UTF-8"></script>
-
-    <!-- <iframe src="https://medium.com/@tiffanynguyen_70175" style="width:100%;height:100%;"></iframe> 
-    <div id="fm-medium-embed"></div>
-
-    <script src="embed.js"></script>
-    <script>
-    var fmSettings = {
-        feedURL: 'https://data.feedmirror.com/-LoRMCEwu6p05RPwufwF.json',
-        integration: 'medium-embed',
-        linkOutText: 'Read more',
-        linkToMediumProfileText: 'Subscribe on Medium',
-        postsCount: 3,
-        element: 'fm-medium-embed'
-    };
-    feedmirror.initialize(fmSettings);
-    </script> -->
 </body>
             
