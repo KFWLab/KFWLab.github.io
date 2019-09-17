@@ -49,8 +49,8 @@
     </div>
 
     <blockquote class="embedly-card" data-card-controls="0">
-        <h4><a href="https://medium.com/@tiffanynguyen_70175">Tiffany Nguyen - Medium</a></h4>
-        <p>Read writing from Tiffany Nguyen on Medium. Every day, Tiffany Nguyen and thousands of other voices read, write, and share important stories on Medium.</p>
+        <h4><a href="https://medium.com/@KFW_Lab">Kelsey Fisher Wellman - Medium</a></h4>
+        <p>Assistant professor - East Carolina Diabetes and Obesity Institute, #Mitochondria all the time, #ECU #ECUBrodySOM</p>
     </blockquote>
 
     <script>
@@ -67,7 +67,7 @@
             var request = new XMLHttpRequest();
 
             // CORS restricts non-medium.com domains from accessing medium.com so...I had to set up a proxy via cors-escape
-            request.open("GET", "https://kfw-proxy.herokuapp.com/https://medium.com/@tiffanynguyen_70175?format=json");
+            request.open("GET", "https://kfw-proxy.herokuapp.com/https://medium.com/@KFW_Lab?format=json");
 
             request.onload = function() {
             if (request.status >= 200 && request.status < 400) {
@@ -105,7 +105,7 @@
         }
 
         function createEmbedly(url, story_title, story_subtitle){
-            url = "https://medium.com/@tiffanynguyen_70175/" + url
+            url = "https://medium.com/@KFW_Lab/" + url
             var iDiv = document.createElement('blockquote');
             var link = document.createElement('a');
             var title = document.createElement('h4');
