@@ -1,1 +1,121 @@
-<p>add publication info</p>
+<!DOCTYPE html>
+<html>
+<title>KFW Lab</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+    <style>
+        .citation{
+            width: 75%;
+            margin: 0 auto;
+            /* padding-bottom: 1.5em; */
+            background-color:white;
+            padding: 1.5em;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
+            border-radius: 5px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+    </style>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-card-2 w3-animate-top w3-black" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+            <i class="fa fa-bars"></i>
+            </a>
+            <a href="index.html" class="w3-bar-item w3-button w3-hover-black">HOME</a>
+            <a href="index.html#about" class="w3-bar-item w3-button w3-hover-black w3-hide-small"><i class="fa fa-info-circle"></i> ABOUT</a>
+            <a href="news.html" class="w3-bar-item w3-button w3-hover-black w3-hide-small"><i class="fa fa-newspaper-o"></i> NEWS</a>
+            <a href="publications.html" class="w3-bar-item w3-button w3-hide-small w3-hover-black"><i class="fa fa-book"></i> PUBLICATIONS</a>
+            <a href="index.html#members" class="w3-bar-item w3-button w3-hide-small w3-hover-black"><i class="fa fa-user"></i> MEMBERS</a>
+            <a href="index.html#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-black"><i class="fa fa-envelope"></i> CONTACT</a>
+        </div>
+        
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-gray w3-hide w3-hide-large w3-hide-medium">
+            <a href="index.html#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+            <a href="news.html" class="w3-bar-item w3-button" onclick="toggleFunction()">NEWS</a>
+            <a href="publications.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PUBLICATIONS</a>
+            <a href="index.html#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+        </div>
+    </div>
+
+    <div class="w3-display-container" style="margin-top:4.5em;">
+            <div class="w3-center" style="white-space:nowrap;padding:3em;">
+                <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide">PUBLICATIONS</span>
+            </div>
+        </div>
+
+    <div id="publications" style="width: 100%;">
+        <div class="citation">
+                Kao LP, Morad SAF, Davis TS, MacDougall MR, Kassai M, Abdelmageed N, Fox TE, Kester M, Loughran TP Jr, Abad JL, Fabrias G, Tan SF, Feith DJ, Claxton DF, Spiegel S, Fisher-Wellman KH, Cabot MC. 
+                <a href="https://www.ncbi.nlm.nih.gov/pubmed/31363040/">
+                    Chemotherapy selection pressure alters sphingolipid composition and mitochondrial bioenergetics in resistant HL-60 cells.
+                </a> 
+                J Lipid Res. 2019 Sep;60(9):1590-1602. doi: 10.1194/jlr.RA119000251. Epub 2019 Jul 30. PubMed PMID: 31363040; PubMed Central PMCID: PMC6718434.
+                <br><a href="publications/PMID31363040.pdf"style="color:blue">PDF</a>
+        </div>
+        <div class="citation">
+                Goldberg EJ, Buddo KA, McLaughlin KL, Fernandez RF, Pereyra AS, Psaltis CE, Lin CT, Hagen JT, Boykov IN, Nguyen TK, Gowdy KM, Ellis JM, Neufer PD, McClung JM, Fisher-Wellman KH.
+                <a href="https://www.ncbi.nlm.nih.gov/pubmed/31092703/">
+                    Tissue-specific characterization of mitochondrial branched-chain keto acid oxidation using a multiplexed assay platform.
+                </a>
+                Biochem J. 2019 May 31;476(10):1521-1537. doi: 10.1042/BCJ20190182. PubMed PMID: 31092703.
+                <br><a href="publications/PMID31092703.pdf"style="color:blue">PDF</a>
+        </div>
+        <div class="citation">
+                Douros JD, Niu J, Sdao S, Gregg T, Fisher-Wellman K, Bharadwaj M, Molina A, Arumugam R, Martin M, Petretto E, Merrins MJ, Herman MA, Tong J, Campbell J, D'Alessio D.
+                <a href="https://www.ncbi.nlm.nih.gov/pubmed/30777938/">
+                    Sleeve gastrectomy rapidly enhances islet function independently of body weight.
+                </a>
+                JCI Insight. 2019 Mar 21;4(6). doi: 10.1172/jci.insight.126688. eCollection 2019 Mar 21. PubMed PMID: 30777938; PubMed Central PMCID: PMC6483064.
+                <br><a href="publications/PMID30777938.pdf"style="color:blue">PDF</a>
+        </div>
+        <div class="citation">
+                Fisher-Wellman KH, Draper JA, Davidson MT, Williams AS, Narowski TM, Slentz DH, Ilkayeva OR, Stevens RD, Wagner GR, Najjar R, Hirschey MD, Thompson JW, Olson DP, Kelly DP, Koves TR, Grimsrud PA, Muoio DM.
+                <a href="https://www.ncbi.nlm.nih.gov/pubmed/30726738/">
+                    Respiratory Phenomics across Multiple Models of Protein Hyperacylation in Cardiac Mitochondria Reveals a Marginal Impact on Bioenergetics.
+                </a>
+                Cell Rep. 2019 Feb 5;26(6):1557-1572.e8. doi: 10.1016/j.celrep.2019.01.057. PubMed PMID: 30726738; PubMed Central PMCID: PMC6478502.
+                <br><a href="publications/PMID30726738.pdf" style="color:blue">PDF</a>
+        </div>
+        <div class="citation">
+                McLaughlin KL, McClung JM, Fisher-Wellman KH.
+                <a href="https://www.ncbi.nlm.nih.gov/pubmed/30217445/">
+                    Bioenergetic consequences of compromised mitochondrial DNA repair in the mouse heart. 
+                </a>
+                Biochem Biophys Res Commun. 2018 Oct 12;504(4):742-748. doi: 10.1016/j.bbrc.2018.09.022. Epub 2018 Sep 11. PubMed PMID: 30217445; PubMed Central PMCID: PMC6173612.
+                <br><a href="publications/PMID30217445.pdf" style="color:blue">PDF</a>
+        </div>
+        <div class="citation">
+                Fisher-Wellman KH, Davidson MT, Narowski TM, Lin CT, Koves TR, Muoio DM.
+                <a href="https://www.ncbi.nlm.nih.gov/pubmed/30257218/">
+                    Mitochondrial Diagnostics: A Multiplexed Assay Platform for Comprehensive Assessment of Mitochondrial Energy Fluxes. 
+                </a>
+                Cell Rep. 2018 Sep 25;24(13):3593-3606.e10. doi: 10.1016/j.celrep.2018.08.091. PubMed PMID: 30257218; PubMed Central PMCID: PMC6237617.
+                <br><a href="publications/PMID30257218.pdf" style="color:blue">PDF</a>
+        </div>
+        <div class="citation">
+                Fazakerley DJ, Chaudhuri R, Yang P, Maghzal GJ, Thomas KC, Krycer JR, Humphrey SJ, Parker BL, Fisher-Wellman KH, Meoli CC, Hoffman NJ, Diskin C, Burchfield JG, Cowley MJ, Kaplan W, Modrusan Z, Kolumam G, Yang JY, Chen DL, Samocha-Bonet D, Greenfield JR, Hoehn KL, Stocker R, James DE.
+                <a href="https://www.ncbi.nlm.nih.gov/pubmed/29402381/">
+                    Mitochondrial CoQ deficiency is a common driver of mitochondrial oxidants and insulin resistance. 
+                </a>
+                Elife. 2018 Feb 6;7. doi: 10.7554/eLife.32111. PubMed PMID: 29402381; PubMed Central PMCID: PMC5800848.
+                <br><a href="publications/PMID29402381.pdf" style="color:blue">PDF</a>
+        </div>
+        <div class="citation">
+                Chaudhuri R, Krycer JR, Fazakerley DJ, Fisher-Wellman KH, Su Z, Hoehn KL, Yang JYH, Kuncic Z, Vafaee F, James DE.
+                <a href="https://www.ncbi.nlm.nih.gov/pubmed/293790701/">
+                    The transcriptional response to oxidative stress is part of, but not sufficient for, insulin resistance in adipocytes. 
+                </a>
+                Sci Rep. 2018 Jan 29;8(1):1774. doi: 10.1038/s41598-018-20104-x. PubMed PMID: 29379070; PubMed Central PMCID: PMC5789081.
+                <br><a href="publications/PMID29379070.pdf" style="color:blue">PDF</a>
+        </div>
+    </div>
+</body>
