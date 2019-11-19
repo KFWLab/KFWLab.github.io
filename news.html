@@ -36,6 +36,7 @@
           <a href="index.html#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
           <a href="news.html" class="w3-bar-item w3-button" onclick="toggleFunction()">NEWS</a>
           <a href="publications.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PUBLICATIONS</a>
+          <a href="members.html" class="w3-bar-item w3-button" onclick="toggleFunction()">MEMBERS</a>
           <a href="index.html#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
         </div>
     </div>
@@ -54,6 +55,16 @@
     </blockquote>
 
     <script>
+
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
         window.onload = function() {
             getPostData();
         };
